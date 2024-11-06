@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Darker grey for the heading */
+}
+
+.joke-box {
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #ffffff; /* White background for the joke box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#joke-text {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555; /* Medium grey for joke text */
+    min-height: 60px; /* Ensure consistent box height for jokes */
+}
+
+#character-count {
+    font-size: 14px;
+    color: #888; /* Light grey for character count text */
+    margin-bottom: 20px;
+}
+
+.get-joke, .clear-joke {
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.get-joke {
+    background-color: #28a745; /* Green color for "Get Joke" button */
+    color: white;
+}
+
+.clear-joke {
+    background-color: #dc3545; /* Red color for "Clear Joke" button */
+    color: white; 
+    margin-left: 130px;
+}
+
+button:hover {
+    opacity: 0.9; /* Slight opacity change on hover */
+}
+
+button:focus {
+    outline: none; /* Remove focus outline */
+}
+.grey{
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+}
